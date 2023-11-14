@@ -1,3 +1,39 @@
+# Run via docker compose
+
+1. Clone the repo into the directory of your choice:
+
+```bash
+git clone https://github.com/digitalandrew/8086-emulator-web-docker.git
+```
+
+2. CD into the repo directory
+
+```bash
+cd 8086-emulator-web-docker
+```
+3. Bring up the web app with docker compose
+
+```bash
+docker compose up
+```
+4. Take note of the IP and directory the webapp is running at.
+
+The output from docker compose will look something like the below
+
+`8086-emulator  | ℹ ｢wds｣: Project is running at http://172.20.0.2/
+8086-emulator  | ℹ ｢wds｣: webpack output is served from /8086-emulator-web
+`
+5. Navigate to the web app
+
+In your favourite browser navigate to:
+
+`http://<ip-from-docker-compose>:3000/<path-from-docker-compose>`
+
+Example: 
+
+`http://172.20.0.2/8086-emulator-web`
+
+
 # Emulator 8086 Web
 
 Web interface for 8086 emulator [https://yjdoc2.github.io/8086-emulator-web](https://yjdoc2.github.io/8086-emulator-web)

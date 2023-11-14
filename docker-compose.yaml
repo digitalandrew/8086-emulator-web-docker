@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  8086-emulator:
+    image: 8086-emulator
+    container_name: 8086-emulator
+    build: 
+      dockerfile: dockerfile
+    ports:
+      - "3000:3000"
