@@ -1,5 +1,9 @@
 # Run via docker compose
 
+Note that you will need the official docker engine to run docker compose properly, this can be found here for debian (works on kali):
+
+[https://docs.docker.com/engine/install/debian/#install-using-the-repository](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
+
 1. Clone the repo into the directory of your choice:
 
 ```bash
