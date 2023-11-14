@@ -20,9 +20,9 @@ docker compose up
 
 The output from docker compose will look something like the below
 
-`8086-emulator  | ℹ ｢wds｣: Project is running at http://172.20.0.2/
-8086-emulator  | ℹ ｢wds｣: webpack output is served from /8086-emulator-web
-`
+`8086-emulator  | ℹ ｢wds｣: Project is running at http://172.20.0.2/`
+`8086-emulator  | ℹ ｢wds｣: webpack output is served from /8086-emulator-web`
+
 5. Navigate to the web app
 
 In your favourite browser navigate to:
