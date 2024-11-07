@@ -4,6 +4,10 @@ Note that you will need the official docker engine to run docker compose properl
 
 [https://docs.docker.com/engine/install/debian/#install-using-the-repository](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
 
+Or here for Ubuntu:
+
+[https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
+
 1. Clone the repo into the directory of your choice:
 
 ```bash
