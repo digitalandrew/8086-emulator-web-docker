@@ -254,7 +254,7 @@ impl WebDriver {
             if ip.len() < required {
                 max = ip.len() as u8;
                 // store how many are read, skipping newline char
-                self.vm.mem[start + 1] = max - 1;
+                self.vm.mem[start + 1] = max;
             } else {
                 max = required as u8;
                 self.vm.mem[start + 1] = max;
