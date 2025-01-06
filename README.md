@@ -11,7 +11,7 @@ Or here for Ubuntu:
 1. Download the repo code as a zipfile and unzip it
 
 ```bash
-unzip 8086-emulator-web-docker
+unzip 8086-emulator-web-docker.zip
 ```
 
 2. CD into the repo directory
