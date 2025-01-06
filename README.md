@@ -8,10 +8,10 @@ Or here for Ubuntu:
 
 [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
 
-1. Clone the repo into the directory of your choice:
+1. Download the repo code as a zipfile and unzip it
 
 ```bash
-git clone https://github.com/digitalandrew/8086-emulator-web-docker.git
+unzip 8086-emulator-web-docker
 ```
 
 2. CD into the repo directory
